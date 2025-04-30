@@ -70,6 +70,7 @@ body {
 
 
 .info-block {
+    min-height: 25vh;
     display: flex;
     flex-direction: column;
     align-items:center ;
@@ -104,4 +105,30 @@ body {
 
 .card p {
     text-align: center;
+}
+
+.quote-block {
+    min-height: 20vh;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em 10em;
+}
+
+.testimony {
+    align-self: center;
+    max-width: 750px;
+}
+
+.testimony .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.testimony .signature {
+    text-align: end;
+    font-weight: bold;
+    
 }
