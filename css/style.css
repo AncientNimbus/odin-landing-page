@@ -7,6 +7,10 @@ body {
     flex-direction: column;
 }
 
+img {
+    object-fit: cover;
+}
+
 .header,
 .banner,
 .footer {
@@ -21,6 +25,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .header .logo {
