@@ -47,7 +47,8 @@ body {
     flex: 1;
 }
 
-.banner button {
+.banner button,
+.cta-card button {
     color: #F9FAF8;
     background-color: #3B82F6;
     border-radius: 8px;
@@ -131,4 +132,35 @@ body {
     text-align: end;
     font-weight: bold;
     
+}
+
+.cta-block {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5em 8em;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.cta-card {
+    background-color: #3B82F6;
+    min-width: 850px;
+    border-radius: 13px;
+    padding: 2em 4em;
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+.cta-text {
+    color: #F9FAF8;
+}
+
+.cta-card button {
+    align-self: center;
+    max-height: 55px;
+    border-radius: 13px;
+    border: solid #F9FAF8 3px;
 }
