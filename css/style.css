@@ -1,4 +1,5 @@
 body {
+    min-height: 100vh;
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
@@ -163,4 +164,16 @@ body {
     max-height: 55px;
     border-radius: 13px;
     border: solid #F9FAF8 3px;
+}
+
+.footer {
+    margin-top: auto;
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    text-align: center;
 }
