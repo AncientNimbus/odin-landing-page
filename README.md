@@ -4,3 +4,6 @@
 
 This project is part of my HTML refresher journey, more info on this project can be found [here](https://www.theodinproject.com/lessons/foundations-landing-page).
 
+## Project Scope
+
+- A site optimised for desktop
